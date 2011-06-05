@@ -1,0 +1,8 @@
+Wound Classification System
+
+You will need to check out the shared components of this application for it
+to build properly.
+
+$ cd src/org/rhok
+$ git clone NEEDTOVERIFYURL shared
+
