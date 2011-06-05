@@ -14,16 +14,13 @@
  * limitations under the License.
  */
 
-package org.rhok.wcs.android;
+package org.rhok.wcs.shared.model;
 
-import android.app.Activity;
-import android.os.Bundle;
+/**
+ * 
+ * @author Jon VanAlten
+ *
+ */
+public class WoundInfo {
 
-public class Main extends Activity {
-    /** Called when the activity is first created. */
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-    }
 }

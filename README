@@ -1,8 +1,6 @@
 Wound Classification System
 
-You will need to check out the shared components of this application for it
-to build properly.
-
-$ cd src/org/rhok
-$ git clone NEEDTOVERIFYURL shared
+This is the shared components for the Wound Classification System mobile app.
+These classes are used in both the Blackberry and Android versions of the
+application.  See those projects for details.
 
