@@ -16,11 +16,45 @@
 
 package org.rhok.wcs.shared.model;
 
+import android.graphics.Point;
+
 /**
  * 
  * @author Jon VanAlten
  *
  */
 public class WoundInfo {
-
+	private PatientInfo pinfo;
+	
+	public WoundInfo() {
+		pinfo = new PatientInfo();
+	}
+	
+	public String getPatientName() {
+		return pinfo.getName();
+	}
+	
+	public void setPatientName(String name) {
+		pinfo.setName(name);
+	}
+	
+	public int getPatientAge() {
+		return pinfo.getAge();
+	}
+	
+	public void setPatientAge(int age) {
+		pinfo.setAge(age);
+	}
+	
+	public Gender getPatientGender() {
+		return pinfo.getGender();
+	}
+	
+	public void setPatientGender(Gender gender) {
+		pinfo.setGender(gender);
+	}
+	
+	public void addReferenceEndpoint(Point point) {
+		
+	}
 }
